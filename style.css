@@ -22,12 +22,55 @@
   header h3{
   color:#6070FF;
   font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
   }
   .icon{
   color: #6070FF;
+  }
+  li {
+  list-style: none;
+  }
+
+  ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  }
+
+  p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  }
+
+  h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  }
+
+  h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  }
+
+  .socialMedia {
+  font-size: 22px;
+  color: #505F79;
+  font-weight: 500;
   }
 }
