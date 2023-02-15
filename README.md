@@ -63,6 +63,8 @@ In order to run this project you need:
 sudo apt install git-all
 or
 npm install
+Fontawesome CDN
+Google font Poppin normal 400
 ```
 
 ### Setup
