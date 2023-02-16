@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./pictures/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio</b></h3>
@@ -96,10 +96,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_some_sections]**
+- [ ] **[Add_contact_form]**
 - [ ] **[Add_a_profile_picture]**
-- [ ] **[Add_a_description]**
-- [ ] **[Add_some_Projects_preview]**
+- [ ] **[Add_JavaScript_behavor]**
+- [ ] **[Add_link_to_a_tags]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
