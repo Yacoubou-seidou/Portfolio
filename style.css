@@ -5,6 +5,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  min-height: 90%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -15,7 +16,7 @@ body {
     background-position: center;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   header {
@@ -25,7 +26,7 @@ body {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   header a {
