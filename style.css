@@ -27,7 +27,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 30px;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   header a {
@@ -48,7 +48,7 @@ body {
     min-height: 100%;
     width: 100%;
     padding-bottom: 50%;
-    background-color: #ffffff;
+    background-color: #fff;
     padding-top: 20%;
     border-bottom-left-radius: 75px;
     padding-left: 15px;
@@ -107,7 +107,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .work {
@@ -145,7 +145,7 @@ body {
     color: #344563;
     width: 22%;
     font-size: 13px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     font-style: normal;
   }
 
@@ -199,12 +199,14 @@ body {
     font-weight: 500;
     font-size: 17px;
   }
+
   .btn_details:hover {
-    color: #ffffff;
-    background-color: #6070FF;
+    color: #fff;
+    background-color: #6070ff;
   }
+
   .btn_details:active {
-    color: #ffffff;
+    color: #fff;
     background-color: #2230d2;
   }
 
@@ -214,9 +216,8 @@ body {
     padding-bottom: 20%;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-    border-top-right-radius:75px;
-    
+    background-color: #fff;
+    border-top-right-radius: 75px;
   }
 
   .drop_down {
