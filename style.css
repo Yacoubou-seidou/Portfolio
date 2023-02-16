@@ -5,15 +5,18 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  min-height: 100%;
+  background-color: #f7f7f9;
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (max-width: 768px) {
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 30px;
     height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 85px;
   }
 
   header {
@@ -24,6 +27,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 30px;
+    background-color: #ffffff;
   }
 
   header a {
@@ -42,8 +46,13 @@ body {
     background-size: contain;
     background-position: center;
     min-height: 100%;
+    width: 100%;
     padding-bottom: 50%;
+    background-color: #ffffff;
     padding-top: 20%;
+    border-bottom-left-radius: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .icon {
@@ -97,22 +106,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     width: 100%;
+    background-color: #ffffff;
   }
 
   .work {
     display: grid;
     row-gap: 88px;
     grid-template-columns: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   img {
     width: 100%;
   }
 
-  h2 {
+  .card h2 {
     font-weight: 700;
+    color: #172b4d;
+    font-size: 32px;
     text-align: left;
     width: 100%;
     margin-bottom: 0;
@@ -120,6 +133,7 @@ body {
 
   .title {
     display: flex;
+    flex-direction: row;
     justify-content: start;
     align-items: center;
     height: 10%;
@@ -130,6 +144,9 @@ body {
     font-weight: 600;
     color: #344563;
     width: 22%;
+    font-size: 13px;
+    font-family: "poppins",sans-serif;
+    font-style: normal;
   }
 
   .title_list {
@@ -137,19 +154,25 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 13px;
   }
 
   .title_list li {
-    color: #c1c7d0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #7a869a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40%;
   }
 
   .title_list li::before {
     content: "\2022";
+    font-size: 25px;
     color: #c1c7d0;
     font-weight: bolder;
     display: inline-block;
-    width: 2em;
+    width: 15px;
   }
 
   .tech_list {
@@ -176,12 +199,24 @@ body {
     font-weight: 500;
     font-size: 17px;
   }
+  .btn_details:hover {
+    color: #ffffff;
+    background-color: #6070FF;
+  }
+  .btn_details:active {
+    color: #ffffff;
+    background-color: #2230d2;
+  }
 
   .about_section {
-    padding-top: 20%;
+    margin-top: 20%;
+    padding: 16px;
     padding-bottom: 20%;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    border-top-right-radius:75px;
+    
   }
 
   .drop_down {
