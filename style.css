@@ -122,6 +122,12 @@ body {
     width: 100%;
   }
 
+  .card p {
+    color: #344563;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
   .card h2 {
     font-weight: 700;
     color: #172b4d;
@@ -220,6 +226,17 @@ body {
     border-top-right-radius: 75px;
   }
 
+  .about_section h2 {
+    font-weight: 700;
+    color: #172b4d;
+    font-size: 40px;
+  }
+
+  .about_section p {
+    color: #344563;
+    font-size: 16px;
+  }
+
   .drop_down {
     display: flex;
     flex-direction: column;
@@ -238,6 +255,11 @@ body {
     margin-bottom: 3%;
   }
 
+  .languages_title h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
   .grey_color {
     color: #acb7c3;
   }
@@ -251,6 +273,8 @@ body {
     border-radius: 8px;
     padding: 5px;
     margin-bottom: 5%;
+    color: #253858;
+    font-size: 15px;
   }
 
   .Languages_items span {
