@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  min-height: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    background-image: url("./pictures/header-shapes\ mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 40px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 40px;
+  }
+
+  header a {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .containt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    color: #6070ff;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+  }
+
+  h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .socialMedia {
+    font-size: 22px;
+    color: #505f79;
+    font-weight: 500;
+  }
+}
