@@ -41,7 +41,7 @@ body {
   .containt {
     display: flex;
     flex-wrap: wrap;
-    background-image: url("./pictures/header-shapesmobile.png");
+    background-image: url("pictures/header-shapesmobile.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -302,7 +302,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("/pictures/contactformshapes-mobile@2x.png");
+    background-image: url("pictures/contactformshapes-mobile@2x.png");
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -324,6 +324,7 @@ body {
 
   .form_section p {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -348,8 +349,9 @@ body {
   .input_element,
   .text_elemnt {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #cfd8dc;
+    padding: 15px;
   }
 
   .submit_btn {
