@@ -88,15 +88,22 @@ To run the project, execute the following command:
 👤 **Author1**
 
 - GitHub: [yacoubou-seidou](https://github.com/yacoubou-seidou)
+  👤 **Author2**
+
+- GitHub: [Prince-Nwuke](https://github.com/prius2055)
+  👤 **Author3**
+
+- GitHub: [Samuel-O.Acheampong](https://github.com/yawsamcode)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_contact_form]**
+- [ ] **[Add_project_details]**
 - [ ] **[Add_a_profile_picture]**
 - [ ] **[Add_JavaScript_behavor]**
 - [ ] **[Add_link_to_a_tags]**
+- [ ] **[Ass_memu_link]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
