@@ -306,7 +306,7 @@ body {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #6070FF;
+    background-color: #6070ff;
     padding-top: 20%;
     padding-left: 24px;
     padding-right: 24px;
@@ -314,19 +314,19 @@ body {
     color: #ebebff;
     padding-bottom: 2%;
   }
-  
+
   .form_section h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
   }
 
-    .form_section p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
+  .form_section p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
   }
 
   .bottom_line {
@@ -336,16 +336,17 @@ body {
     height: 5px;
     background-color: #0d151e;
     border: #0d151e;
-    margin-top: 20%;
   }
+
   .form_submit {
     display: grid;
     grid-template-columns: 100%;
-    grid-row-gap:15px;
+    grid-row-gap: 15px;
     width: 100%;
   }
 
-  .input_element, .text_elemnt {
+  .input_element,
+  .text_elemnt {
     width: 100%;
     border-radius: 5px;
     border: 1px solid #cfd8dc;
@@ -362,7 +363,7 @@ body {
     font-weight: 400;
     color: #172b4d;
   }
-  
+
   .text_elemnt {
     height: 150px;
     font-family: "Poppins", sans-serif;
@@ -373,4 +374,3 @@ body {
     border: 1px solid #cfd8dc;
   }
 }
-
