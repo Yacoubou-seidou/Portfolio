@@ -182,10 +182,12 @@ body {
   }
 
   .tech_list {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     width: 75%;
-    align-self: self-start;
+    align-self: self-start; */
+    float: left;
+    width: 80%;
   }
 
   .tech_list li {
