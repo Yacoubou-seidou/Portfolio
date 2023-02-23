@@ -103,7 +103,7 @@ To run the project, execute the following command:
 - [ ] **[Add_a_profile_picture]**
 - [ ] **[Add_JavaScript_behavor]**
 - [ ] **[Add_link_to_a_tags]**
-- [ ] **[Ass_memu_link]**
+- [ ] **[Add_memu_link]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

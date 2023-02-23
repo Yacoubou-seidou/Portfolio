@@ -14,12 +14,13 @@ body {
   header {
     display: flex;
     justify-content: space-between;
-    height: 20%;
+    height: 10%;
     align-items: center;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 30px;
     background-color: #fff;
+    width: 100%;
   }
 
   header a {
@@ -74,13 +75,13 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    min-height: 90vh;
+    min-height: 60vh;
     width: 100%;
     background-color: #fff;
-    border-bottom-left-radius: 75px;
+    border-bottom-left-radius: 10%;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
     padding-top: 10%;
   }
 
@@ -94,16 +95,17 @@ body {
 
   p {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   h1 {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 48px;
+    line-height: 60px;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
   }
 
   h5 {
@@ -112,6 +114,8 @@ body {
     line-height: 24px;
     color: #7f8cff;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .socialMedia {
@@ -182,14 +186,14 @@ body {
   .card_reverse p {
     color: #344563;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .card h2,
   .card_reverse h2 {
     font-weight: 700;
     color: #172b4d;
-    font-size: 32px;
+    font-size: 40px;
     text-align: left;
     width: 100%;
     margin-bottom: 0;
@@ -208,7 +212,7 @@ body {
     font-weight: 600;
     color: #344563;
     width: 22%;
-    font-size: 13px;
+    font-size: 18px;
     font-family: "poppins", sans-serif;
     font-style: normal;
   }
@@ -221,8 +225,8 @@ body {
   }
 
   .title_list li {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     color: #7a869a;
     display: flex;
     justify-content: center;
@@ -242,7 +246,7 @@ body {
   .tech_list {
     display: flex;
     justify-content: space-between;
-    min-width: 80%;
+    min-width: 70%;
     align-self: self-start;
   }
 
@@ -251,6 +255,8 @@ body {
     background-color: #ebebff;
     border-radius: 8px;
     padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 500;
   }
 
   .btn_details {
@@ -278,6 +284,7 @@ body {
   .bottom_section {
     background-color: #fff;
     margin-top: 8%;
+    border-top-right-radius: 10%;
   }
 
   .about_section {
@@ -289,7 +296,7 @@ body {
     grid-template-columns: 45% 55%;
     grid-gap: 40px;
     background-color: #fff;
-    border-top-right-radius: 95px;
+    border-top-right-radius: 20%;
   }
 
   .about_section .icons {
@@ -305,6 +312,7 @@ body {
   .about_section p {
     color: #344563;
     font-size: 16px;
+    font-weight: 400;
   }
 
   .drop_down {
@@ -350,7 +358,7 @@ body {
 
   .Languages_items p {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     color: #253858;
   }
 
@@ -415,6 +423,8 @@ body {
   .submit_btn {
     width: 40%;
     margin: 0 auto;
+    font-size: 17px;
+    font-weight: 500;
   }
 
   .input_element {
@@ -752,7 +762,6 @@ body {
     padding-right: 24px;
     border-top-left-radius: 80px;
     color: #ebebff;
-    padding-bottom: 2%;
   }
 
   .form_section h2 {
