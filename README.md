@@ -30,7 +30,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> This is my first Portfolio project in the Microverse.
+> This is my first Portfolio project in the Microverse. Responsive on mobile and desktop
 
 **Portfolio** is a basic HTML&CSS repository
 
@@ -105,7 +105,7 @@ To run the project, execute the following command:
 - [ ] **[Add_a_profile_picture]**
 - [ ] **[Add_JavaScript_behavor]**
 - [ ] **[Add_link_to_a_tags]**
-- [ ] **[Ass_memu_link]**
+- [ ] **[Add_memu_link]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ If you like this project give me a follow
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all my coding partners at Microverse
+I would like to thanks all my coding partners at Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
