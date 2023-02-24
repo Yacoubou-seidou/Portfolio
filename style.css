@@ -148,6 +148,9 @@ body {
     background-color: #fff;
   }
 
+  .card {
+  transition: transform .2s;
+}
   .card:hover,
   .card_reverse:hover {
     border: 2px solid #a7aeff;
