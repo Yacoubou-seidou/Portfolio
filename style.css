@@ -148,14 +148,16 @@ body {
     background-color: #fff;
   }
 
-  .card {
+  .card,
+  .card_reverse {
     transition: transform 0.2s;
   }
+
   .card:hover,
   .card_reverse:hover {
     border: 2px solid #a7aeff;
     box-shadow: 0 35px 20px -15px #e7e9f0;
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 
   .second_reverse {
