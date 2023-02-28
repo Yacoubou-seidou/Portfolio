@@ -238,7 +238,7 @@ label {
     font-size: 18px;
     width: auto;
     font-weight: 400;
-    color: #7a869a;
+    color: #4f5869;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -648,7 +648,7 @@ label {
   .title_list li {
     font-size: 13px;
     font-weight: 600;
-    color: #7a869a;
+    color: #4f5869;
     display: flex;
     justify-content: center;
     align-items: center;
