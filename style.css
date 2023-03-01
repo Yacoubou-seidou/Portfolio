@@ -10,6 +10,10 @@ body {
   padding: 0;
 }
 
+label {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     display: flex;
@@ -24,7 +28,7 @@ body {
   }
 
   header a {
-    color: #6070ff;
+    color: #0f27ff;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -86,7 +90,7 @@ body {
   }
 
   .icon {
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   li {
@@ -112,7 +116,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #0a23ff;
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
@@ -234,7 +238,7 @@ body {
     font-size: 18px;
     width: auto;
     font-weight: 400;
-    color: #7a869a;
+    color: #4f5869;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -282,7 +286,7 @@ body {
   }
 
   .tech_list li {
-    color: #6070ff;
+    color: #0f27ff;
     background-color: #ebebff;
     border-radius: 8px;
     padding: 4px 12px;
@@ -295,7 +299,7 @@ body {
     color: #396df2;
     margin-top: 3%;
     align-self: self-start;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     padding: 12px;
     border-radius: 8px;
     background-color: white;
@@ -305,7 +309,7 @@ body {
 
   .btn_details:hover {
     color: #fff;
-    background-color: #6070ff;
+    background-color: #0f27ff;
   }
 
   .btn_details:active {
@@ -409,7 +413,7 @@ body {
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    background-color: #6070ff;
+    background-color: #0f27ff;
     border-top-left-radius: 80px;
     color: #ebebff;
     padding-top: 6%;
@@ -509,7 +513,7 @@ body {
   }
 
   header a {
-    color: #6070ff;
+    color: #0f27ff;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -534,7 +538,7 @@ body {
   }
 
   .icon {
-    color: #6070ff;
+    color: #0f27ff;
   }
 
   li {
@@ -566,7 +570,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #0a23ff;
     width: 100%;
   }
 
@@ -644,7 +648,7 @@ body {
   .title_list li {
     font-size: 13px;
     font-weight: 600;
-    color: #7a869a;
+    color: #4f5869;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -667,7 +671,7 @@ body {
   }
 
   .tech_list li {
-    color: #6070ff;
+    color: #0f27ff;
     background-color: #ebebff;
     border-radius: 8px;
     padding: 4px 12px;
@@ -678,7 +682,7 @@ body {
   .btn_details {
     color: #396df2;
     align-self: self-start;
-    border: 1px solid #6070ff;
+    border: 1px solid #0f27ff;
     padding: 12px;
     border-radius: 8px;
     background-color: white;
@@ -688,7 +692,7 @@ body {
 
   .btn_details:hover {
     color: #fff;
-    background-color: #6070ff;
+    background-color: #0f27ff;
   }
 
   .btn_details:active {
@@ -789,7 +793,7 @@ body {
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #6070ff;
+    background-color: #0f27ff;
     padding-top: 20%;
     padding-left: 24px;
     padding-right: 24px;
