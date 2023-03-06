@@ -520,6 +520,23 @@ label {
     text-decoration: none;
   }
 
+  .middle_bar {
+    position: absolute;
+    height: 5px;
+    background-color: black;
+    width: 40%;
+    border: none;
+    top: 95vh;
+    margin-right: 5%;
+  }
+
+  .bottom_bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .open {
     color: #0f27ff;
     font-size: 25px;
