@@ -1,5 +1,5 @@
 {
-  "name": "hello-microverse",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yacoubou-seidou/Hello-Microverse.git"
+    "url": "git+https://github.com/Yacoubou-seidou/Portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yacoubou-seidou/Hello-Microverse/issues"
+    "url": "https://github.com/Yacoubou-seidou/Portfolio/issues"
   },
-  "homepage": "https://github.com/Yacoubou-seidou/Hello-Microverse#readme",
+  "homepage": "https://github.com/Yacoubou-seidou/Portfolio#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
