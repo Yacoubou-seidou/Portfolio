@@ -13,17 +13,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <title>Yacoubou Seidou - Portoflio</title>
+  <title>Yacoubou Seidou - Portfolio</title>
 </head>
 <body>
     <header tabindex="0">
       <a href="/">My Logo</a>
-      <nav class="mobile_nav"><i class="fa-solid fa-bars fa-2x icon "></i></nav>
+      <nav class="mobile_nav">
+          <button class="hamburger">
+            <i class="fa-sharp fa-solid fa-xmark close"></i>
+            <i class="fa-solid fa-bars open"></i>
+          </button>
+          <ul class="menu_list">
+          <li><a class="link_item" href="#work">Portfolio</a></li>
+          <li><a class="link_item" href="#about">About</a></li>
+          <li><a class="link_item" href="#contact">Contact</a></li>
+          </ul>
+      </nav>
       <nav class="desktop_nav">
         <ul>
-          <li><a href="/">Portoflio</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Contact</a></li>
+          <li><a href="#work">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -40,7 +50,7 @@
     <h5 tabindex="0">
       LET’S CONNECT
     </h5>
-    <ul>
+    <ul class="medias">
       <li><a href="#"><i class="fa-brands fa-twitter socialMedia"></i></a></li>
       <li><a href="#"><i class="fa-brands fa-linkedin-in socialMedia"></i></a> </li>
       <li><a href="#"><i class="fa-solid fa-m socialMedia"></i></a></li>
@@ -48,7 +58,7 @@
       <li><a href="#"><i class="fa-regular fa-hand-peace socialMedia"></i></a></li>
     </ul>
   </section>
-  <section class="work" tabindex="0">
+  <section class="work" tabindex="0" id="work">
     <div class="card" tabindex="0">
       <img src="./pictures/SnapshootPortfolio.png" tabindex="0" alt="Project_Image" srcset="">
       <div class="text_side" tabindex="0">
@@ -137,7 +147,7 @@
     </div>
   </section>
   <div class="bottom_section">
-      <section class="about_section" tabindex="0">
+      <section class="about_section" tabindex="0" id="about">
         <div>
           <h2 tabindex="0">About<br> Myself</h2>
           <p tabindex="0">
@@ -148,7 +158,7 @@
           <h5 tabindex="0">
             LET’S CONNECT
           </h5>
-          <ul class="icons">
+          <ul class="icons medias">
             <li><a href="#"><i class="fa-brands fa-github socialMedia"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-linkedin-in socialMedia"></i></a> </li>
             <li><a href="#"><i class="fa-regular fa-hand-peace socialMedia"></i></a></li>
@@ -189,7 +199,7 @@
           <hr>
         </div>
       </section>
-      <section class="form_section">
+      <section class="form_section" id="contact">
         <h2 tabindex="0">Contact me</h2>
         <p tabindex="0">If you have an application you are interested in developing, a feature that you need built or a project that needs
           coding. I’d love to help with it</p>
@@ -208,4 +218,5 @@
   </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>

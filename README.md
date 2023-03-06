@@ -8,31 +8,27 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 Portfolio ](#-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 # 📖 Portfolio <a name="about-project"></a>
 
 > This is my first Portfolio project in the Microverse. Responsive on mobile and desktop
 
-**Portfolio** is a basic HTML&CSS repository
+**Portfolio** is a basic HTML,CSS and Javascript repository
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -96,6 +92,9 @@ To run the project, execute the following command:
   👤 **Author3**
 
 - GitHub: [Samuel-O.Acheampong](https://github.com/yawsamcode)
+  👤 **Author3**
+
+- GitHub: [Ferizad](https://github.com/Ferizad)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,9 +102,7 @@ To run the project, execute the following command:
 
 - [ ] **[Add_project_details]**
 - [ ] **[Add_a_profile_picture]**
-- [ ] **[Add_JavaScript_behavor]**
 - [ ] **[Add_link_to_a_tags]**
-- [ ] **[Add_memu_link]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
