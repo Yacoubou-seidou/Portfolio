@@ -559,6 +559,7 @@ label {
   }
 
   .menu_list {
+    box-sizing: border-box;
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
