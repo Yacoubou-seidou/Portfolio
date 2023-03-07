@@ -489,8 +489,9 @@ label {
   }
 
   .btn_links {
+    min-width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -537,7 +538,7 @@ label {
   }
 
   .tech_list_modal {
-    width: 100%;
+    min-width: 60%;
     flex-wrap: wrap;
   }
 
@@ -563,6 +564,10 @@ label {
     text-align: center;
     font-weight: 500;
     font-size: 15px;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding-left: 10px;
   }
 
   .modal_head ul li {
@@ -1094,8 +1099,21 @@ label {
 
   .btn_links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  @media only screen and (max-width: 370px) {
+    .btn_links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn_modal {
+      width: 80%;
+    }
   }
 
   .modal-content {
@@ -1144,7 +1162,7 @@ label {
 
   .tech_list_modal {
     padding: 0;
-    width: 100%;
+    min-width: 60%;
     flex-wrap: wrap;
   }
 
@@ -1168,6 +1186,10 @@ label {
 
   .btn_modal {
     text-align: center;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    padding-left: 10px;
+    min-width: 40%;
   }
 
   .modal_head ul li {
@@ -1205,4 +1227,10 @@ label {
   .rightSide {
     width: 100%;
   }
+}
+
+.btn_modal img {
+  width: 15px;
+  margin: 0;
+  margin-left: 5px;
 }

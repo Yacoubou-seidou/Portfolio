@@ -134,10 +134,8 @@ function displayCard() {
                 </ul>
                 <hr class="divider">
                 <div class="btn_links">
-                  <button class="btn_details btn_modal"><a href="${project.livelink}" class="modal_link" target="_blank">See live  <span class="material-symbols-outlined icon_modal">
-enable
-</span></a></button>
-                  <button class="btn_details btn_modal"><a href="${project.sourcelink}" class="modal_link" target="_blank">See Source  <i class="fa-brands fa-github icon_modal"></i></a></button>
+                  <button class="btn_details btn_modal"><a href="${project.livelink}" class="modal_link" target="_blank">See live</a><img class="" tabindex="0" src="./pictures/see_live_btn.png" srcset=""></button>
+                  <button class="btn_details btn_modal"><a href="${project.sourcelink}" class="modal_link" target="_blank">See Source</a><img class="" tabindex="0" src="./pictures/see_source_btn.png" srcset=""></button>
                 </div>
             </div>
           </div>
