@@ -154,6 +154,11 @@ enable
       btn.parentNode.lastElementChild.style.display = 'block';
       btn.parentNode.lastElementChild.style.zIndex = '300';
       document.body.classList.add('hide_y_scroll');
+      window.onclick = (event) => {
+        if (event.target === btn.parentNode.lastElementChild) {
+          btn.parentNode.lastElementChild.style.display = 'none';
+        }
+      };
     });
   });
   span.forEach((el) => {
