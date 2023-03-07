@@ -14,8 +14,8 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javaScript'],
     image: './pictures/SnapshootPortfolio.png',
-    livelink: 'https://www.google.com/',
-    sourcelink: 'https://www.google.com/',
+    livelink: 'https://yacoubou-seidou.github.io/Portfolio/',
+    sourcelink: 'https://github.com/Yacoubou-seidou/Portfolio',
     classes: 'card',
     imgClass: 'rien',
     textClass: 'rien',
@@ -27,8 +27,8 @@ const projects = [
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     image: './pictures/SnapshootPortfolio4.png',
-    livelink: 'https://www.google.com/',
-    sourcelink: 'https://www.google.com/',
+    livelink: 'https://yacoubou-seidou.github.io/Portfolio/',
+    sourcelink: 'https://github.com/Yacoubou-seidou/Portfolio',
     classes: 'card_reverse',
     imgClass: 'first_reverse',
     textClass: 'second_reverse',
@@ -40,8 +40,8 @@ const projects = [
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     image: './pictures/SnapshootPortfolio2.png',
-    livelink: 'https://www.google.com/',
-    sourcelink: 'https://www.google.com/',
+    livelink: 'https://yacoubou-seidou.github.io/Portfolio/',
+    sourcelink: 'https://github.com/Yacoubou-seidou/Portfolio',
     classes: 'card',
     imgClass: 'rien',
     textClass: 'rien',
@@ -53,8 +53,8 @@ const projects = [
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     image: './pictures/SnapshootPortfolio1.png',
-    livelink: 'https://www.google.com/',
-    sourcelink: 'https://www.google.com/',
+    livelink: 'https://yacoubou-seidou.github.io/Portfolio/',
+    sourcelink: 'https://github.com/Yacoubou-seidou/Portfolio',
     classes: 'card_reverse',
     imgClass: 'first_reverse',
     textClass: 'second_reverse',
@@ -134,10 +134,10 @@ function displayCard() {
                 </ul>
                 <hr class="divider">
                 <div class="btn_links">
-                  <button class="btn_details btn_modal"><a href="${project.livelink}" class="modal_link" target="_blank">See live <span class="material-symbols-outlined icon_modal">
+                  <button class="btn_details btn_modal"><a href="${project.livelink}" class="modal_link" target="_blank">See live  <span class="material-symbols-outlined icon_modal">
 enable
 </span></a></button>
-                  <button class="btn_details btn_modal"><a href="${project.sourcelink}" class="modal_link" target="_blank">See Source <i class="fa-brands fa-github icon_modal"></i></a></button>
+                  <button class="btn_details btn_modal"><a href="${project.sourcelink}" class="modal_link" target="_blank">See Source  <i class="fa-brands fa-github icon_modal"></i></a></button>
                 </div>
             </div>
           </div>
@@ -157,6 +157,7 @@ enable
       window.onclick = (event) => {
         if (event.target === btn.parentNode.lastElementChild) {
           btn.parentNode.lastElementChild.style.display = 'none';
+          document.body.classList.remove('hide_y_scroll');
         }
       };
     });

@@ -504,7 +504,7 @@ label {
   }
 
   .closeModal {
-    color: #aaaaaa;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -534,7 +534,6 @@ label {
 
   .modal_head ul {
     margin: 0;
-
   }
 
   .tech_list_modal {
@@ -556,6 +555,8 @@ label {
   .icon_modal {
     color: #6070ff;
     font-size: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .btn_modal {
@@ -590,12 +591,12 @@ label {
   }
 
   .divider {
-    border: 1px solid #EBECF0;
+    border: 1px solid #ebecf0;
   }
 
   .rightSide {
     width: 35%;
-    padding: 10px auto;
+    padding: 10px;
   }
 }
 
@@ -1107,7 +1108,7 @@ label {
   }
 
   .closeModal {
-    color: #aaaaaa;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -1133,13 +1134,12 @@ label {
   }
 
   .modal_head h5 {
-      font-weight: 600;
-      font-size: 13px;
+    font-weight: 600;
+    font-size: 13px;
   }
 
   .modal_head ul {
     margin: 0;
-
   }
 
   .tech_list_modal {
@@ -1162,6 +1162,8 @@ label {
   .icon_modal {
     color: #6070ff;
     font-size: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .btn_modal {
@@ -1195,13 +1197,12 @@ label {
   }
 
   .divider {
-    border: 1px solid #EBECF0;
+    border: 1px solid #ebecf0;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .rightSide {
     width: 100%;
-    padding: 10px auto;
   }
 }
