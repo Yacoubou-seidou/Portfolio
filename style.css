@@ -10,6 +10,12 @@ body {
   padding: 0;
 }
 
+.valid_section {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
 label {
   display: none;
 }
@@ -421,7 +427,7 @@ label {
     margin-bottom: 0;
   }
 
-  .form_section p {
+  .form_section_p {
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 20px;
@@ -1028,7 +1034,7 @@ label {
     line-height: 52px;
   }
 
-  .form_section p {
+  .form_section_p {
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-size: 20px;
