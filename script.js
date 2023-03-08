@@ -4,6 +4,9 @@ const hamburger = document.querySelector('.hamburger');
 const closeIcon = document.querySelector('.close');
 const menuIcon = document.querySelector('.open');
 const workSection = document.getElementById('work');
+const message = document.getElementById('validate_el');
+const mail = document.getElementById('email');
+const formSubmit = document.querySelector('.form_submit');
 let btnModal;
 let span;
 const projects = [
@@ -171,4 +174,10 @@ displayCard();
 hamburger.addEventListener('click', toggleMenu);
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
+});
+formSubmit.addEventListener('submit', (event) => {
+  if (/[A-Z]/.test(mail.value)) {
+    message.innerHTML = 'Your email address should be lowercase';
+    event.preventDefault();
+  }
 });
