@@ -8,10 +8,11 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -35,6 +36,12 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 > HTML&CSS
+
+### Key Features <a name="key-features"></a>
+
+- **[Form_submission]**
+- **[Pop_up_modal]**
+- **[LocalStorage_data_save]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
