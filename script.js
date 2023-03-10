@@ -191,12 +191,11 @@ formSubmit.addEventListener('input', () => {
     email: inputEmail.value,
     message: inputTextArea.value,
   };
-
   localStorage.setItem('contactForm', JSON.stringify(formData));
 });
 
 function loadData() {
-  const formObj = JSON.parse(localStorage.getItem('contactForm'));
+  const formObj = JSON.parse(localStorage.getItem('contactFor'));
   if (formObj) {
     inputName.value = formObj.name;
     inputEmail.value = formObj.email;
